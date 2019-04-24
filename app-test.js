@@ -1,4 +1,4 @@
-describe('arithmetic functions', function() {
+describe('sort ascending functions', function() {
   it('returns the result sorted in ascending order.', function() {
     const input = '1\n2\n3\n';
     expect(sortAscending(input)).toEqual([1, 2, 3]);
